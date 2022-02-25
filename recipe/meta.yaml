@@ -1,5 +1,5 @@
 {% set name = "flake8-variables-names" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flake8_variables_names-{{ version }}.tar.gz
-  sha256: d6fa0571a807c72940b5773827c5760421ea6f8206595ff0a8ecfa01e42bf2cf
+  sha256: 30133e14ee2300e13a60393a00f74d98110c76070ac67d1ab91606f02824a7e1
 
 build:
   number: 0
